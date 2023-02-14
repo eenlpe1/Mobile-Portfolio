@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'screens/about.dart';
 
 import 'screens/home.dart';
 
@@ -24,7 +25,9 @@ class Main extends StatelessWidget {
         ),
       ),
       home: const Home(),
-      // routes: {},
+      routes: {
+        '/about': (context) => const About(),
+      },
     );
   }
 }

@@ -12,7 +12,27 @@ class drawer extends StatelessWidget {
         children: <Widget>[
           InkWell(
             onTap: () {
-              // Navigator.pushNamed(context, '/about');
+              Navigator.pushNamed(context, '/home');
+            },
+            child: const ListTile(
+              leading: Icon(
+                Icons.home,
+                color: Colors.white,
+              ),
+              title: Text(
+                'Home',
+                style: TextStyle(
+                    fontFamily: 'Poppins-Bold',
+                    color: Colors.white,
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold),
+              ),
+            ),
+          ),
+          const SizedBox(height: 10),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/about');
             },
             child: const ListTile(
               leading: Icon(
@@ -100,7 +120,7 @@ class drawer extends StatelessWidget {
                 color: Colors.white,
               ),
               title: Text(
-                'Hobby',
+                'Hobbies',
                 style: TextStyle(
                     fontFamily: 'Poppins-Bold',
                     color: Colors.white,
