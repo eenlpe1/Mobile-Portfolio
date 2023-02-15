@@ -12,7 +12,7 @@ class Home extends StatelessWidget {
         elevation: 0,
         backgroundColor: Colors.transparent,
       ),
-      drawer: const drawer(),
+      drawer: const DrawerComponent(),
       body: Stack(
         children: [
           Padding(

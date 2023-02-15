@@ -26,7 +26,12 @@ class Main extends StatelessWidget {
       ),
       home: const Home(),
       routes: {
-        '/about': (context) => const About(),
+        '/Home': (context) => const Home(),
+        '/About': (context) => const About(),
+        // '/Contact': (context) => const Contact(),
+        // 'Education': (context) => const Education(),
+        // 'Skills': (context) => const Skills(),
+        // 'Hobbies': (context) => const Hobbies(),
       },
     );
   }

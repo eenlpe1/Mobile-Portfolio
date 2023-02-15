@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class drawer extends StatelessWidget {
-  const drawer({super.key});
+class DrawerComponent extends StatelessWidget {
+  const DrawerComponent({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class drawer extends StatelessWidget {
         children: <Widget>[
           InkWell(
             onTap: () {
-              Navigator.pushNamed(context, '/home');
+              Navigator.pushNamed(context, '/Home');
             },
             child: const ListTile(
               leading: Icon(
@@ -32,7 +32,7 @@ class drawer extends StatelessWidget {
           const SizedBox(height: 10),
           InkWell(
             onTap: () {
-              Navigator.pushNamed(context, '/about');
+              Navigator.pushNamed(context, '/About');
             },
             child: const ListTile(
               leading: Icon(
@@ -52,7 +52,7 @@ class drawer extends StatelessWidget {
           const SizedBox(height: 10),
           InkWell(
             onTap: () {
-              // Navigator.pushNamed(context, '/contact');
+              Navigator.pushNamed(context, '/Contact');
             },
             child: const ListTile(
               leading: Icon(
@@ -72,7 +72,7 @@ class drawer extends StatelessWidget {
           const SizedBox(height: 10),
           InkWell(
             onTap: () {
-              // Navigator.pushNamed(context, '/education');
+              Navigator.pushNamed(context, '/Education');
             },
             child: const ListTile(
               leading: Icon(
@@ -92,7 +92,7 @@ class drawer extends StatelessWidget {
           const SizedBox(height: 10),
           InkWell(
             onTap: () {
-              // Navigator.pushNamed(context, '/skills');
+              Navigator.pushNamed(context, '/Skills');
             },
             child: const ListTile(
               leading: Icon(
@@ -112,7 +112,7 @@ class drawer extends StatelessWidget {
           const SizedBox(height: 10),
           InkWell(
             onTap: () {
-              // Navigator.pushNamed(context, '/skills');
+              Navigator.pushNamed(context, '/Hobbies');
             },
             child: const ListTile(
               leading: Icon(
