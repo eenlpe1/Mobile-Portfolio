@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
-import 'screens/about.dart';
+import 'package:p2_mobileportfolio/screens/education.dart';
 
+import 'screens/about.dart';
+import 'screens/contact.dart';
 import 'screens/home.dart';
+import 'screens/skills_hobbies.dart';
 
 void main() {
   runApp(Main());
@@ -28,9 +31,9 @@ class Main extends StatelessWidget {
       routes: {
         '/Home': (context) => const Home(),
         '/About': (context) => const About(),
-        // '/Contact': (context) => const Contact(),
-        // 'Education': (context) => const Education(),
-        // 'Skills': (context) => const Skills(),
+        '/Contact': (context) => const Contact(),
+        '/Education': (context) => const Education(),
+        '/SkillsHobbies': (context) => const SkillsHobbies(),
         // 'Hobbies': (context) => const Hobbies(),
       },
     );

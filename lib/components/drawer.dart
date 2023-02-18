@@ -92,7 +92,7 @@ class DrawerComponent extends StatelessWidget {
           const SizedBox(height: 10),
           InkWell(
             onTap: () {
-              Navigator.pushNamed(context, '/Skills');
+              Navigator.pushNamed(context, '/SkillsHobbies');
             },
             child: const ListTile(
               leading: Icon(
@@ -100,7 +100,7 @@ class DrawerComponent extends StatelessWidget {
                 color: Colors.white,
               ),
               title: Text(
-                'Skills',
+                'Skills & Hobbies',
                 style: TextStyle(
                     fontFamily: 'Poppins-Bold',
                     color: Colors.white,
@@ -110,25 +110,25 @@ class DrawerComponent extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 10),
-          InkWell(
-            onTap: () {
-              Navigator.pushNamed(context, '/Hobbies');
-            },
-            child: const ListTile(
-              leading: Icon(
-                Icons.sports_soccer_rounded,
-                color: Colors.white,
-              ),
-              title: Text(
-                'Hobbies',
-                style: TextStyle(
-                    fontFamily: 'Poppins-Bold',
-                    color: Colors.white,
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold),
-              ),
-            ),
-          ),
+          //   InkWell(
+          //     onTap: () {
+          //       Navigator.pushNamed(context, '/Hobbies');
+          //     },
+          //     child: const ListTile(
+          //       leading: Icon(
+          //         Icons.sports_soccer_rounded,
+          //         color: Colors.white,
+          //       ),
+          //       title: Text(
+          //         'Hobbies',
+          //         style: TextStyle(
+          //             fontFamily: 'Poppins-Bold',
+          //             color: Colors.white,
+          //             fontSize: 18,
+          //             fontWeight: FontWeight.bold),
+          //       ),
+          //     ),
+          //   ),
         ],
       ),
     );

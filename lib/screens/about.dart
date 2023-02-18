@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:p2_mobileportfolio/components/drawer.dart';
 
 class About extends StatelessWidget {
-  static const routeName = '/about';
+  static const routeName = '/About';
   const About({super.key});
 
   final AboutMe =
@@ -33,7 +33,7 @@ class About extends StatelessWidget {
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(15),
             ),
-            color: const Color(0xff0e0e1dd),
+            color: const Color(0xFF1B1B1A),
             child: Padding(
               padding: const EdgeInsets.all(15.0),
               child: Column(
@@ -41,7 +41,7 @@ class About extends StatelessWidget {
                   Container(
                     decoration: BoxDecoration(
                       border: Border.all(
-                        color: const Color(0xff01b263b),
+                        color: const Color(0xff0e0e1dd),
                         width: 3,
                         style: BorderStyle.solid,
                       ),
@@ -64,7 +64,7 @@ class About extends StatelessWidget {
                   Text(
                     AboutMe,
                     style: const TextStyle(
-                      color: Colors.black,
+                      color: Color(0xff0e0e1dd),
                       fontSize: 15,
                       fontWeight: FontWeight.w400,
                     ),
