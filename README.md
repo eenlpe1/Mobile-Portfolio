@@ -2,7 +2,7 @@
 
 Simple Mobile Portfolio created in ```Flutter```. This was created for academic purposes for the ```Mobile Development``` subject.
 
-**Feature:**
+### Feature
 * Drawer
 
 ## Sample Screenshots
