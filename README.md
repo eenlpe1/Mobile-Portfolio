@@ -1,9 +1,9 @@
-##  Mobile Portfolio
+#  Mobile Portfolio
 
-Simple Mobile Portfolio created in ```Flutter```. This was created for academic purposes for the ```Mobile Development``` subject.
+Simple Mobile Portfolio with minimalist user interface. This was created for academic purposes for the ```Mobile Development``` subject.
 
-### Feature
-* Drawer
+### Built With:
+<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"/>
 
 ## Sample Screenshots
 <p align ="center">
@@ -17,3 +17,6 @@ Simple Mobile Portfolio created in ```Flutter```. This was created for academic 
   <img align="center" src="https://user-images.githubusercontent.com/109678010/219879205-51bd5f9d-9ab9-4c1c-b948-657fd4fdd50b.png" width="200">
   <img align="center" src="https://user-images.githubusercontent.com/109678010/219879207-2ef76b31-7c94-4fba-95d1-bd87fd03e61b.png" width="200">
 </p>
+
+### Acknowledgement
++ [invancible/mobile-portfolio](https://github.com/invancible/mobile-portfolio)
