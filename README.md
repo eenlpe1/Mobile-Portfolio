@@ -5,7 +5,7 @@ Simple Mobile Portfolio with minimalist user interface. This was created for aca
 ### Built With:
 <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"/>
 
-## Sample Screenshots
+### Sample Screenshots
 <p align ="center">
   <img align="center" src="https://user-images.githubusercontent.com/109678010/219879195-e5929550-98fe-47fd-aa1c-760dea62ab85.png" width="200">
   <img align="center" src="https://user-images.githubusercontent.com/109678010/219879199-052d953b-b8c0-4424-b5ba-25b2403b654a.png" width="200">
